@@ -1,0 +1,84 @@
+{
+  "categories": [
+    {
+      "name": "General Awareness",
+      "tips": [
+        "Drink at least 8 glasses of water daily to stay hydrated.",
+        "Wash your hands frequently to reduce the risk of infections.",
+        "Avoid smoking and limit alcohol consumption for better health.",
+        "Schedule regular health check-ups to catch potential issues early.",
+        "Practice safe food handling to prevent foodborne illnesses."
+      ]
+    },
+    {
+      "name": "Healthy Lifestyle",
+      "tips": [
+        "Maintain a balanced diet with fruits, vegetables, whole grains, and lean proteins.",
+        "Get at least 7-8 hours of sleep every night to rejuvenate your body.",
+        "Limit screen time to reduce eye strain and improve sleep quality.",
+        "Plan your meals ahead of time to avoid unhealthy food choices.",
+        "Spend time outdoors to get fresh air and vitamin D."
+      ]
+    },
+    {
+      "name": "Exercise",
+      "tips": [
+        "Incorporate at least 30 minutes of physical activity into your daily routine.",
+        "Start your day with light stretches to improve flexibility.",
+        "Engage in strength training exercises twice a week to build muscle.",
+        "Practice yoga or pilates to improve posture and core strength.",
+        "Include aerobic exercises like running or swimming for cardiovascular health."
+      ]
+    },
+    {
+      "name": "Mental Fitness",
+      "tips": [
+        "Practice mindfulness meditation for 10 minutes daily to reduce stress.",
+        "Challenge your brain with puzzles or memory games.",
+        "Spend time with loved ones to improve emotional well-being.",
+        "Learn a new skill or hobby to keep your mind engaged.",
+        "Take short breaks during work to recharge and improve focus."
+      ]
+    },
+    {
+      "name": "Reading",
+      "tips": [
+        "Read at least 15-30 minutes daily to improve cognitive function.",
+        "Choose books that inspire and motivate you.",
+        "Keep a reading journal to track your progress and insights.",
+        "Join a book club to discuss and share perspectives.",
+        "Explore a variety of genres to expand your knowledge."
+      ]
+    },
+    {
+      "name": "Good Habits",
+      "tips": [
+        "Wake up early to start your day with a positive mindset.",
+        "Keep a gratitude journal to focus on the good things in life.",
+        "Plan your day the night before to stay organized.",
+        "Practice deep breathing exercises to calm your mind.",
+        "Avoid procrastination by breaking tasks into smaller steps."
+      ]
+    },
+    {
+      "name": "Beauty Tips (Skin & Hair)",
+      "tips": [
+        "Use sunscreen daily to protect your skin from UV damage.",
+        "Stay hydrated for glowing skin and healthy hair.",
+        "Apply a natural face mask like honey and yogurt once a week.",
+        "Avoid using heat styling tools on your hair frequently.",
+        "Massage your scalp with coconut or argan oil to promote hair growth."
+      ]
+    },
+    {
+      "name": "Medications & Home Remedies",
+      "tips": [
+        "Take prescribed medications at the same time every day for consistency.",
+        "Use a humidifier to relieve nasal congestion naturally.",
+        "Drink warm water with honey and lemon to soothe a sore throat.",
+        "Apply aloe vera gel to minor burns for faster healing.",
+        "Use turmeric paste to reduce inflammation on the skin."
+      ]
+    }
+  ]
+}

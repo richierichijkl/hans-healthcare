@@ -1,0 +1,32 @@
+/* Styling for the ViewRecords component */
+.view-records-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .view-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .record-details {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .record-details p {
+    margin-bottom: 10px;
+  }
+  
+  .record-details strong {
+    color: #007bff;
+  }
+  

@@ -1,0 +1,199 @@
+/* General Styles */
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.dashboard-container {
+    display: flex;
+    flex-grow: 1;
+    gap: 30px;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.sidebar nav ul li:hover {
+    background-color: #f0f9ff;
+    transform: translateX(5px);
+}
+
+.sidebar .icon {
+    font-size: 1.4rem;
+    margin-right: 12px;
+    color: #ff5c8d; /* Accent color */
+}
+
+/* Main Content */
+.main-content {
+    flex-grow: 1;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+}
+
+.main-content h1 {
+    font-size: 2.5rem;
+    color: #ff5c8d; /* Accent color */
+    margin-bottom: 12px;
+}
+
+.main-content p {
+    font-size: 1.2rem;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    height: auto; /* Ensure the card height adjusts based on content */
+}
+
+.card h3 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 12px;
+    padding-bottom: 10px; /* Add some spacing between text and button */
+}
+
+.card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px; /* Reduce margin to make space for the button */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.medical-card {
+    background-color: #fffcf9;
+    border-left: 5px solid #ff5c8d;
+}
+
+.educational-card {
+    background-color: #fff8f0;
+    border-left: 5px solid #ff7f50;
+    padding: 10px 20px; /* Reduced padding to make the card shorter */
+    height: auto; /* Ensure the card height adjusts based on content */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Add space between cards */
+}
+
+/* Header */
+.header {
+    background-color: #ff5c8d;
+    color: white;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 16px 16px;
+}
+
+.header h2 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.user-menu {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.user-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid #ff5c8d;
+    object-fit: cover;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 120%;
+    right: 0;
+    background: white;
+    color: #ff5c8d;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #ff5c8d;
+    font-size: 0.9rem;
+}
+
+.dropdown-content a:hover {
+    background-color: #f0f9ff;
+}
