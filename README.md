@@ -95,7 +95,7 @@ A **comprehensive digital healthcare platform** that empowers users with **easy 
 
 ## 👥 **Contributors**
 
-🚀 **[Your Name]** – Developer & Maintainer  
+🚀 **Richa Choudhary** – Developer & Maintainer  
 🤝 **Contribute to this project!** – Feel free to submit pull requests and report issues.  
 
 ---
